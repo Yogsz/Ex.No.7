@@ -1,257 +1,110 @@
 # Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
 
-# Date:09.10.25
-# Register no: 212223060312
-# Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
+# Date:9-10-2025
+# Register no.2122223060312
+# Aim:
+To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
-#AI Tools Required: 
-
+# AI Tools Required: 
+Lovable ai
 
 # Explanation: 
 Prompt:
-"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+Design and generate a Travel Itinerary Planner Website with a modern, responsive layout and an intuitive user experience. The website should guide users through the entire trip planning process — from trip idea to booking and itinerary visualization.
 
+The design should include all major tasks and sections from top to bottom, such as:
 
-##  Output:
+🔝 1. Header & Navigation
 
-Finish project report
+Logo and site name (e.g., “TripMate” or “Wanderly”)
 
-Call the dentist
+Navigation links: Home, Plan Trip, Explore Destinations, Saved Trips, About, Contact
 
-Check emails
+Login / Sign Up buttons
 
-Buy groceries
+🏖️ 2. Hero Section
 
-Workout
+Large background image or video of travel destinations
 
-# Use:
+Headline: “Plan Your Perfect Trip — From Dream to Departure”
 
-Simple to-do list generation with default prioritization logic.
+Search bar: “Where do you want to go?” + date pickers + traveler count
 
-## Behavior:
-Assumes general rules: deadlines > appointments > routines.
+Call-to-action button: “Start Planning”
 
-Doesn’t adapt to personal user preferences unless pre-trained.
+📅 3. Trip Planning Workflow (Main Feature)
 
-## Real-World Value:
-Quick, frictionless task prioritization.
+Step 1: Choose Destination (search by city/country or discover via recommendations)
 
-Good for first-time users or simple apps.
+Step 2: Set Travel Dates and Duration
 
-# Example-Based Instruction:
+Step 3: Add Accommodation (Hotels, Airbnbs, etc.)
 
-Provide a few input-output examples before asking the model to perform a similar task. It helps the model infer your logic or preferences.
+Step 4: Add Transportation (Flights, Car Rentals, Trains)
 
+Step 5: Add Activities & Attractions (browse local tours, experiences, restaurants)
 
+Step 6: Budget Estimator (auto-calculates estimated total cost)
 
-## Prompt:
+Step 7: Review & Save Itinerary (with export to PDF or shareable link)
 
-"Here is how I like my tasks organized:
+🗺️ 4. Interactive Itinerary Map
 
-Tasks: [Pay electricity bill, Read 1 chapter, Jog]
+Integrate a map showing daily routes, destinations, and major stops
 
-Output:
+Option to rearrange days via drag-and-drop
 
-Jog
+💡 5. Suggested Destinations Section
 
-Pay electricity bill
+Cards with trending destinations, top-rated spots, and travel tips
 
-Read 1 chapter
+Filter by season, budget, or interest (beach, adventure, culture, etc.)
 
-Now organize: [Buy groceries, Finish project report, Call dentist, Workout, Check emails]"
+💬 6. User Reviews & Community
 
-## Output:
+Section showing traveler stories or sample itineraries
 
-Workout
+Rating and comment system
 
-Call dentist
+👤 7. User Dashboard
 
-Finish project report
+Saved trips overview
 
-Check emails
+Download, edit, or duplicate itineraries
 
-Buy groceries
+Profile management and travel preferences
 
-## Use:
-Learning user preferences and customizing routines accordingly.
+📩 8. Newsletter Signup
 
-## Behavior:
-Learns that time-sensitive tasks come first.
+Simple form with incentives like “Get weekly travel inspiration”
 
-May mimic specific phrasing or order.
+🦶 9. Footer
 
-## Real-World Value:
-Allows your app to "learn" from user-provided habits.
+Quick links (FAQs, Support, Privacy Policy, Terms)
 
-Supports recurring task routines (e.g., “Always meditate first”).
+Social media icons
 
-# Step-by-Step Reasoning:
+Contact info
 
-Asks the model to explain its logic before giving the final output. This makes the decision-making transparent and often more accurate.
+🎨 Design & Technical Guidelines
 
-## Prompt:
+Responsive layout (desktop, tablet, mobile)
 
-"Organize these tasks for today and explain your reasoning:
+Clean, modern UI (use colors inspired by travel — sky blue, sand, green)
 
-[Buy groceries, Finish project report, Call dentist, Workout, Check emails]"
+Use icons for each trip step
 
-## Output:
+Include subtle animations and hover effects
 
-# First, high-priority and time-sensitive tasks:
+Consider integration with APIs (Google Maps, Skyscanner, Booking.com)
 
-   Finish project report (deadline-driven)
+# Output:
+<img width="1457" height="793" alt="Screenshot 2025-11-10 091022" src="https://github.com/user-attachments/assets/d49b4361-9bb5-45dd-a2f4-c358fc9cada4" />
+<img width="1435" height="711" alt="Screenshot 2025-11-10 091045" src="https://github.com/user-attachments/assets/40b53c1c-fafc-4eb0-b5e0-2920cdcca386" />
+<img width="1442" height="796" alt="Screenshot 2025-11-10 091104" src="https://github.com/user-attachments/assets/ff117438-809c-49f8-8126-2f39548c100f" />
+<img width="1451" height="715" alt="Screenshot 2025-11-10 091129" src="https://github.com/user-attachments/assets/ed3322e8-1ae0-408d-a4f3-44d0b8cce7c7" />
+<img width="1447" height="803" alt="Screenshot 2025-11-10 091149" src="https://github.com/user-attachments/assets/83883863-311f-4f3a-b75d-721fb4d8645d" />
 
-   Call dentist (appointment windows)
-
-# Then, medium-priority:
-
-  Check emails (flexible timing but necessary)
-
-# Finally, flexible tasks:
-
-  Buy groceries
-
-  Workout
-
-# Final Order:
-
-  Finish project report
-
-  Call dentist
-
-  Check emails
-
-  Buy groceries
-
-  Workout
-
-## Use: 
-  AI explains task reasoning, giving users transparency and trust.
-
-## Behavior:
-Gives detailed reasoning.
-
-Builds trust and lets users modify based on logic.
-
-## Real-World Value:
-Useful in productivity coaching or mental wellness apps.
-
-Users appreciate transparent AI.
-
-# Personalized Assistant:
-Define the AI's role or personality—like a coach, executive assistant, or productivity expert—and have it respond accordingly.
-
-## Prompt:
-
-"You are my personal productivity coach. Organize my daily tasks with priorities and include time estimates:
-
-[Buy groceries, Finish project report, Call dentist, Workout, Check emails]"
-
-## Output:
-
-Daily Schedule:
-
- 9:00 AM - Finish project report (2 hrs)
-
- 11:00 AM - Call dentist (15 min)
-
- 11:15 AM - Check emails (30 min)
-
- 12:00 PM - Buy groceries (1 hr)
-
- 1:00 PM - Workout (1 hr)
-
-## Use: 
-Structured day planner with time blocks and accountability.
-
-## Behavior:
-Adds context, breaks, personality.
-
-Suggests wellness tips, routines, even motivational comments.
-
-## Real-World Value:
-Great for wellness apps or coaching platforms.
-
-Gives a human-like feeling to the interaction.
-
-# With Voice/Image Inputs:
-
-Use non-textual input—voice, handwriting, screenshots—to extract tasks and structure them intelligently.
-
-## Voice Input Example:
-
-User: "I need to drop off the package, email my boss, do the laundry, and book my vaccine appointment."
-
-Prompt (internally transcribed):
-
-"Organize these tasks from voice input: Drop off package, Email boss, Do laundry, Book vaccine appointment."
-
-## Image Input Example:
-Image: A whiteboard with handwritten tasks:
-
-“Dentist 3PM, Fix resume, Clean desk, Meds refill”
-
-Prompt (internally OCR’d):
-
-"Organize tasks from this list: Dentist 3PM, Fix resume, Clean desk, Meds refill."
-
-## Expected Output:
-Dentist 3PM
-
-Fix resume
-
-Meds refill
-
-Clean desk
-
-## Behavior:
-Parses raw input (voice/image) into a structured plan.
-
-Supports accessibility and natural user input.
-
-## Real-World Value:
-Great for mobile productivity tools.
-
-Helps users avoid typing and stay hands-free.
-
-# Table:
-
-<img width="1034" height="361" alt="image" src="https://github.com/user-attachments/assets/8826f95b-b4b4-4dd1-8029-27d2da990e04" />
-
-
-
-# Final Recommendation:
-
-To create a scalable and intelligent task app, combine all five techniques:
-
-Start with zero-shot for new users.
-
-Let users train it with a few-shot example set.
-
-Offer reasoning for trust and insight.
-
-Add role-based personas for advanced planning.
-
-Use voice/image inputs for convenience and accessibility.
 
 # Result: 
 The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
@@ -259,5 +112,3 @@ The lab exercise resulted in the creation of a prototype concept for a personal 
  Foster creativity by designing features suited to their personal or academic lives.
  Learn prompt engineering techniques for optimal interaction with AI tools.
  Experience the versatility and utility of generative AI in solving everyday problems.
-
-
